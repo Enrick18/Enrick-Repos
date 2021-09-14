@@ -4,7 +4,7 @@ function Add(){
 
     let result=parseInt(numOne+numTwo);
 
-    alert(result)
+    document.getElementById("Text").innerHTML = result;
 }
 
 function Subtract(){
@@ -13,7 +13,7 @@ function Subtract(){
 
     let result=parseInt(numOne-numTwo);
 
-    alert(result)
+    document.getElementById("Text").innerHTML = result;
 
 
 }
@@ -24,7 +24,7 @@ function Multip(){
 
     let result=parseInt(numOne*numTwo);
 
-    alert(result)
+    document.getElementById("Text").innerHTML = result;
 
 
 }
@@ -35,7 +35,7 @@ function Divi(){
 
     let result=parseFloat(numOne/numTwo);
 
-    alert(result)
+    document.getElementById("Text").innerHTML = result;
 
 
 }
