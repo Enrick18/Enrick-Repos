@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>'
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="col-md-12 text-center">
+    <h1>"SIMPLE CALCULATOR"</h1>
+  </div>
+
+    <div class="container">
+        <div class="align-items-center">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">First Number</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id=firstNum>
+              </div>
+        
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Second Number</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="secNum">
+              </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-md-12 text-center">
+            <button type="button" class="btn btn-secondary btn-lg" id="Add">+</button>
+            <button type="button" class="btn btn-secondary btn-lg" id="Sub">-</button>
+            <button type="button" class="btn btn-secondary btn-lg" id="Mult">*</button>
+            <button type="button" class="btn btn-secondary btn-lg" id="Div">/</button>
+        </div>
+    </div>
+
+    <div class="container">
+      <button class ="btn btn-secondary btn-lg " onclick="myFunction()">Toggle dark mode</button>
+    </div>
+
+    <script src="calcu.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+</body>
+</html>
